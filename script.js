@@ -17,7 +17,7 @@ for(let i = 0; i < gridSize ** 2; i++) {
     container.appendChild(square);
 
     //change color of square on mouse hover
-    square.addEventListener("onclick", (event) => {
+    square.addEventListener("mouseover", (event) => {
         square.style.backgroundColor = "red";
     });
 
